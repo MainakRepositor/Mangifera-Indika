@@ -8,6 +8,7 @@ body {
   color: white;
   background: url("../mango.jpg");
   background-size: cover;
+  /*overflow-y: hidden;*/
 }
 
 a {
@@ -16,7 +17,7 @@ a {
 }
 
 a:hover {
-  color: #469fdf;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -50,6 +51,7 @@ h6 {
 #header .logo {
   font-size: 28px;
   margin: 0;
+  justify-content: center;
   padding: 0;
   line-height: 1;
   font-weight: 300;
@@ -58,7 +60,7 @@ h6 {
 }
 
 #header .logo a {
-  color: #16507b;
+  color: #ffffff;
 }
 
 #header .logo img {
@@ -101,6 +103,7 @@ h6 {
 
 #hero h1 {
   margin: 0;
+  align-items: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 72px;
